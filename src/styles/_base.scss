@@ -1,0 +1,9 @@
+body {
+  @apply bg-rich-black;
+}
+
+
+a,
+button {
+  @apply cursor-pointer transition-all duration-200 ease-in-out;
+}
