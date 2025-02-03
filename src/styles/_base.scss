@@ -1,9 +1,28 @@
 body {
-  @apply bg-rich-black;
+  @apply bg-rich-black scroll-smooth;
 }
 
 
 a,
 button {
   @apply cursor-pointer transition-all duration-200 ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-poppins font-semibold;
+}
+
+
+p,
+li {
+  @apply text-indigo-200 font-inter font-medium;
+}
+
+a {
+  @apply text-rich-purple hover:text-light-grey transition-all duration-200 ease-in-out;
 }
